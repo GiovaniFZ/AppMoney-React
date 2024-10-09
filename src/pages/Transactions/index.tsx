@@ -6,7 +6,7 @@ import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styl
 import { TransactionContext } from "../../contexts/TransactionContext";
 
 export function Transactions(){
-const {transactions} = useContext(TransactionContext);
+const { transactions } = useContext(TransactionContext);
     return (
         <div>
             <Header />
